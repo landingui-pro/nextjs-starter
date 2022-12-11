@@ -1,0 +1,28 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"analyze": "ANALYZE=true npm run build"
+	},
+	"dependencies": {
+		"@heroicons/react": "^2.0.13",
+		"@next/bundle-analyzer": "^13.0.6",
+		"@tailwindcss/forms": "^0.5.3",
+		"clsx": "^1.2.1",
+		"firebase": "^9.12.1",
+		"next": "latest",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.7",
+		"eslint": "^8.29.0",
+		"eslint-plugin-react": "^7.31.11",
+		"postcss": "^8.4.14",
+		"prettier": "^2.8.1",
+		"tailwindcss": "^3.1.2"
+	}
+}
